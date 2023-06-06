@@ -1,2 +1,2 @@
 # bootcamp
-Bootcamp ERP 
+1. Installation
