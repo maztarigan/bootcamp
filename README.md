@@ -1,5 +1,5 @@
 ## Jayanusa Bootcamp June-July 2023
-#Day 1:
+<b>Day 1:</b>
 1. Docker Installation
    - Download Docker : https://www.docker.com/
    - Install (Windows/Mac)
