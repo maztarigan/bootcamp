@@ -14,4 +14,10 @@
       - docker start erp14
       - http://localhost:8989
 
-    
+ 3. Docker Terminal:
+   - Masuk ke docker : 
+      - docker exec -u root -it erp14 /bin/bash
+   - Copy new module:
+      - docker cp <nama_module> erp14:/mnt/extra-addons
+      - docker stop erp14
+      - docker start erp14     
