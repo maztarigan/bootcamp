@@ -1,4 +1,4 @@
-## Jayanusa Bootcamp June-July 2023
+## ERP Bootcamp @Jayanusa Padang:June-July 2023
 <b>Day 1:</b>
 1. Docker Installation
    - Download Docker : https://www.docker.com/
