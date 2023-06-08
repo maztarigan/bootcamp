@@ -1,5 +1,5 @@
 ## ERP Bootcamp @Jayanusa Padang:June-July 2023
-<b>Day 1:</b>
+<b>Day 1:</b><br>
 <b>Comparasion:</b>
    1. https://www.odoo.com/id_ID/page/compare-odoo-vs-sap
    2. https://www.odoo.com/id_ID/page/erp-comparison
