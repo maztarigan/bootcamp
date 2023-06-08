@@ -1,5 +1,12 @@
 ## ERP Bootcamp @Jayanusa Padang:June-July 2023
 <b>Day 1:</b>
+<b>Comparasion:</b>
+a. https://www.odoo.com/id_ID/page/compare-odoo-vs-sap
+b. https://www.odoo.com/id_ID/page/erp-comparison
+c. https://www.odoo.com/id_ID/page/editions
+
+<b>Installation:</b>
+
 1. Docker Installation
    - Download Docker : https://www.docker.com/
    - Install (Windows/Mac)
