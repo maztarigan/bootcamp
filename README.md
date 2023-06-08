@@ -5,7 +5,7 @@
    2. https://www.odoo.com/id_ID/page/erp-comparison
    3. https://www.odoo.com/id_ID/page/editions
 <br>
-<b>Learn Python:<b>https://www.netacad.com/courses/programming/pcap-programming-essentials-python
+<b>Learn Python:<b>https://www.netacad.com/courses/programming/pcap-programming-essentials-python<br>
 
 <br>
 <b>Installation:</b>
