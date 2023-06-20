@@ -31,8 +31,11 @@
    - Copy new module:
       - docker cp <nama_module> erp14:/mnt/extra-addons
       - docker stop erp14
-      - docker start erp14     
-
+      - docker start erp14
+        
+ 4. Setting pdf report agar tampil sempurna & ada logo:
+      - System Configuration -> System Parameter
+      - web.base.url = http://127.0.0.1:8069 
 <br>
 <b>Download:<b>
    
