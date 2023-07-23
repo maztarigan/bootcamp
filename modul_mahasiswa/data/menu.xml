@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="data_mahasiswa_action">
+            <field name="name">data.mahasiswa.action</field>
+            <field name="res_model">data.mahasiswa</field>
+            <field name="view_id" ref="view_data_mahasiswa_tree"/>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Klik untuk menambahkan data mahasiswa
+                </p>
+                <p>Click Create Button to New Data</p>
+            </field>
+        </record>
+
+
+        <menuitem
+            id="mahasiswa_parent_menu"
+            name="Mahasiswa"
+        />
+
+        <menuitem
+            id="data_mahasiswa_menu"
+            name="Student Data"
+            parent="mahasiswa_parent_menu"
+        />
+        <menuitem
+            id="data_mahasiswa_child_menu"
+            name="Data Mahasiswa"
+            action="data_mahasiswa_action"
+            parent="data_mahasiswa_menu"
+        />
+        
+    </data>
+</odoo>

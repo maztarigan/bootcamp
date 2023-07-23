@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_data_mahasiswa_tree">
+            <field name="name">data.mahasiswa.tree</field>
+            <field name="model">data.mahasiswa</field>
+            <field name="arch" type="xml">
+                <tree string="List Data Mahasiswa">
+                    <field name="Nim"/>
+                    <field name="name"/>
+                    <field name="TglLahir"/>
+                    <field name="agama"/>
+                    <field name="jk"/>
+                    <field name="alamat"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Menampilkan form yang didesign sendiri -->
+        <record id="view_data_mahasiswa_form" model="ir.ui.view">
+            <field name="name">data.mahasiswa.form</field>
+            <field name="model">data.mahasiswa</field>
+            <field name="arch" type="xml">
+                <form string="Data Mahasiswa" version="7.0">
+                    <group>
+                        <field name="Nim"/>
+                        <field name="name"/>
+                    </group>
+                    <group>
+                        <field name="TglLahir"/>
+                        <field name="jk"/>
+                        <field name="agama"/>
+                        <field name="alamat"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <!-- Tree view search-->
+        <record id="view_data_mahasiswa_search" model="ir.ui.view">
+            <field name="name">data.mahasiswa.search</field>
+            <field name="model">data.mahasiswa</field>
+            <field name="arch" type="xml">
+                <search string="Data Mahasiswa">
+                    <field name="Nim"/>
+                    <field name="name"/>
+                    <field name="agama"/>
+                </search>
+            </field>
+        </record>
+    </data>
+</odoo>
