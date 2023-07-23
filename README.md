@@ -19,11 +19,15 @@
    - Install Database:
       - docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name=dberp14 postgres:14 
    - Install Odoo:
-      - docker run -p 8989:8069 --name erp14 --link dberp14:db -t odoo:14 
+      - docker run -p 8069:8069 --name erp14 --link dberp14:db -t odoo:14 
    - Running Odoo:
       - docker start dberp14 
       - docker start erp14
       - http://localhost:8989
+   - Install PgAdmin:
+      - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=jayanusa” -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4
+      - docker start <nama_container_pgadmin_anda>
+      - http://localhost:5050
 
  3. Docker Terminal:
    - Masuk ke docker : 
@@ -32,6 +36,11 @@
       - docker cp <nama_module> erp14:/mnt/extra-addons
       - docker stop erp14
       - docker start erp14
+   - Perintah operasi pada docker:
+      - Menampilkan list container pada docker dari terminal:
+         -  docker container l --all 
+      - Menghapus container exsisting:
+         - docker rm <nama_container>
         
  4. Setting pdf report agar tampil sempurna & ada logo:
       - System Configuration -> System Parameter
