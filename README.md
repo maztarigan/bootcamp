@@ -23,7 +23,7 @@
    - Running Odoo:
       - docker start dberp14 
       - docker start erp14
-      - http://localhost:8989
+      - http://localhost:8069
    - Install PgAdmin:
       - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=jayanusa” -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4
       - docker start <nama_container_pgadmin_anda>
