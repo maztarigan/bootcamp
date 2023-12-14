@@ -1,4 +1,4 @@
-## ERP Bootcamp @Jayanusa Padang:June-July 2023
+## ERP Class @Jayanusa Padang:Dec 2023 - Jan 2024
 <b>Day 1:</b><br>
 <b>Comparasion:</b>
    1. https://www.odoo.com/id_ID/page/compare-odoo-vs-sap
