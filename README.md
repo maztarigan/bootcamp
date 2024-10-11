@@ -1,4 +1,4 @@
-## ERP Class @Jayanusa Padang:Dec 2023 - Jan 2024
+## Enterprise IS Class @Jayanusa Padang:Oct 2024
 <b>Day 1:</b><br>
 <b>Comparasion:</b>
    1. https://www.odoo.com/id_ID/page/compare-odoo-vs-sap
