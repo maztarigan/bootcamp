@@ -36,6 +36,9 @@
       - docker cp <nama_module> erp14:/mnt/extra-addons
       - docker stop erp14
       - docker start erp14
+      - Masuk ke Odoo dan pastikan sudah mengaktifkan Developer Mode
+      - Masuk Modul Apps, dan klik Update Apps List
+      - Maka Addons Baru anda sudah masuk ke list apps
    - Perintah operasi pada docker:
       - Menampilkan list container pada docker dari terminal:
          -  docker container l --all 
