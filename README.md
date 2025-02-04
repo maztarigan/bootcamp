@@ -38,7 +38,7 @@
       - docker start erp17
       - Masuk ke Odoo dan pastikan sudah mengaktifkan Developer Mode
       - Masuk Modul Apps, dan klik Update Apps List
-      - Maka Addons Baru anda sudah masuk ke list apps
+      - Maka Addons Baru anda sudah masuk ke list apps, dan siap di Activate
    - Perintah operasi pada docker:
       - Menampilkan list container pada docker dari terminal:
          -  docker container l --all 
