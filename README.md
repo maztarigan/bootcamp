@@ -1,4 +1,4 @@
-## Enterprise IS Class @Jayanusa Padang:Oct 2024
+## Odoo Sharing @UnivCiputra Surabaya:3 Feb 2025
 <b>Day 1:</b><br>
 <b>Comparasion:</b>
    1. https://www.odoo.com/id_ID/page/compare-odoo-vs-sap
@@ -17,25 +17,25 @@
    
  2. Install Odoo 14:
    - Install Database:
-      - docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name=dberp14 postgres:14 
+      - docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name=dberp17 postgres:16 
    - Install Odoo:
-      - docker run -p 8069:8069 --name erp14 --link dberp14:db -t odoo:14 
+      - docker run -p 8069:8069 --name erp17 --link dberp14:db -t odoo:17 
    - Running Odoo:
-      - docker start dberp14 
-      - docker start erp14
+      - docker start dberp17 
+      - docker start erp17
       - http://localhost:8069
    - Install PgAdmin:
-      - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=jayanusa” -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4
+      - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=ciputra” -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4
       - docker start <nama_container_pgadmin_anda>
       - http://localhost:5050
 
  3. Docker Terminal:
    - Masuk ke docker : 
-      - docker exec -u root -it erp14 /bin/bash
+      - docker exec -u root -it erp17 /bin/bash
    - Copy new module:
-      - docker cp <nama_module> erp14:/mnt/extra-addons
-      - docker stop erp14
-      - docker start erp14
+      - docker cp <nama_module> erp17:/mnt/extra-addons
+      - docker stop erp17
+      - docker start erp17
       - Masuk ke Odoo dan pastikan sudah mengaktifkan Developer Mode
       - Masuk Modul Apps, dan klik Update Apps List
       - Maka Addons Baru anda sudah masuk ke list apps
@@ -51,9 +51,9 @@
 <br>
 <b>Download:<b>
    
-1. https://apps.odoo.com/apps/modules/14.0/om_account_accountant/
+1. https://apps.odoo.com/apps/modules/17.0/om_account_accountant/
    
-2. https://odoo-community.org/shop/account-reconciliation-widget-8893#attr=14598
+2. https://odoo-community.org/shop/account-reconciliation-widget-8893#attr=14598 --> pilih versi 17
    
-3. https://apps.odoo.com/apps/modules/14.0/stock_no_negative/
+3. https://apps.odoo.com/apps/modules/17.0/stock_no_negative/
     
