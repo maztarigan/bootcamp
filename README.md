@@ -15,7 +15,7 @@
    - Install (Windows/Mac)
    - Run Docker
    
- 2. Install Odoo 14:
+ 2. Install Odoo 17:
    - Install Database:
       - docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name=dberp17 postgres:16 
    - Install Odoo:
