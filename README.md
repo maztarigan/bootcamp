@@ -33,6 +33,10 @@
    - Masuk ke docker : 
       - docker exec -u root -it erp17 /bin/bash
    - Copy new module:
+      - Download Free Addons ke folder kerja anda, di :
+        - https://apps.odoo.com/apps
+        - https://odoo-community.org/shop/
+      - Extract Zip File Addons yang baru di download, dan copykan masing-masing folder ke docker.
       - docker cp <nama_module> erp17:/mnt/extra-addons
       - docker stop erp17
       - docker start erp17
