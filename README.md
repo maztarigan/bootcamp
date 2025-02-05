@@ -40,7 +40,7 @@
       - docker cp <nama_module> erp17:/mnt/extra-addons
       - docker stop erp17
       - docker start erp17
-      - Masuk ke Odoo dan pastikan sudah mengaktifkan Developer Mode
+      - Masuk ke Odoo dan pastikan sudah mengaktifkan Developer Mode (Menu Setting --> Scroll page paling bawah --> Activate Developer Mode) 
       - Masuk Modul Apps, dan klik Update Apps List
       - Maka Addons Baru anda sudah masuk ke list apps, dan siap di Activate
    - Perintah operasi pada docker:
