@@ -28,6 +28,14 @@
       - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=ciputra” -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4
       - docker start <nama_container_pgadmin_anda>
       - http://localhost:5050
+      - Masukkan Email : ciputra
+      - Masukkan Password: odoo
+      - Di Explorer PgAdmin, klik kanan Local dan Register Server
+      - Masukkan data sebagai berikut:
+        <img width="913" alt="Screenshot 2025-02-05 at 15 42 00" src="https://github.com/user-attachments/assets/274bdc5a-a286-44f5-aae9-f8201202f92e" />
+
+        <img width="700" alt="Screenshot 2025-02-05 at 15 42 10" src="https://github.com/user-attachments/assets/f5169592-32b4-4bc0-abe0-32240f1a7fa4" />
+
 
  3. Docker Terminal:
    - Masuk ke docker : 
