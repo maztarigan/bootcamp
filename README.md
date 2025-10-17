@@ -29,10 +29,10 @@
       - docker start erp17
       - http://localhost:8069
    - Install PgAdmin:
-      - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=ciputra” -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4
+      - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=bootcamp” -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4
       - docker start <nama_container_pgadmin_anda>
       - http://localhost:5050
-      - Masukkan Email : ciputra
+      - Masukkan Email : bootcamp
       - Masukkan Password: odoo
       - Di Explorer PgAdmin, klik kanan Local dan Register Server
       - Masukkan data sebagai berikut:
