@@ -1,4 +1,4 @@
-## Odoo Sharing @UnivCiputra Surabaya:3 Feb 2025
+## Odoo Sharing 
 ## History : 
 ## 1. 3 Feb 2025 @Univ Ciputra Surabaya
 ## 2. 17 Oct 2025 @STMIK Jayanusa Padang
