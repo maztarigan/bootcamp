@@ -19,14 +19,14 @@
    - Install (Windows/Mac)
    - Run Docker
    
- 2. Install Odoo 17:
+ 2. Install Odoo 18:
    - Install Database:
-      - docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name=dberp17 postgres:16 
+      - docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name=dberp18 postgres:16 
    - Install Odoo:
-      - docker run -p 8069:8069 --name erp17 --link dberp17:db -t odoo:17 
+      - docker run -p 8069:8069 --name erp18 --link dberp18:db -t odoo:18 
    - Running Odoo:
-      - docker start dberp17 
-      - docker start erp17
+      - docker start dberp18 
+      - docker start erp18
       - http://localhost:8069
    - Install PgAdmin:
       - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=bootcamp” -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4
