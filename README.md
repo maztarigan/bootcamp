@@ -1,4 +1,8 @@
 ## Odoo Sharing @UnivCiputra Surabaya:3 Feb 2025
+## History : 
+## 1. 3 Feb 2025 @Univ Ciputra Surabaya
+## 2. 17 Oct 2025 @STMIK Jayanusa Padang
+
 <b>Day 1:</b><br>
 <b>Comparasion:</b>
    1. https://www.odoo.com/id_ID/page/compare-odoo-vs-sap
