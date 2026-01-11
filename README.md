@@ -1,7 +1,7 @@
 ## Odoo Sharing 
 ## History : 
 ## 1. 3 Feb 2025 @Univ Ciputra Surabaya
-## 2. 17 Oct 2025 @STMIK Jayanusa Padang
+## 2. 11 JAn 2026 @STMIK Jayanusa Padang
 
 <b>Day 1:</b><br>
 <b>Comparasion:</b>
@@ -43,15 +43,15 @@
 
  3. Docker Terminal:
    - Masuk ke docker : 
-      - docker exec -u root -it erp17 /bin/bash
+      - docker exec -u root -it erp18 /bin/bash
    - Copy new module:
       - Download Free Addons ke folder kerja anda, di :
         - https://apps.odoo.com/apps
         - https://odoo-community.org/shop/
       - Extract Zip File Addons yang baru di download, dan copykan masing-masing folder ke docker.
-      - docker cp <nama_module> erp17:/mnt/extra-addons
-      - docker stop erp17
-      - docker start erp17
+      - docker cp <nama_module> erp18:/mnt/extra-addons
+      - docker stop erp18
+      - docker start erp18
       - Masuk ke Odoo dan pastikan sudah mengaktifkan Developer Mode (Menu Setting --> Scroll page paling bawah --> Activate Developer Mode) 
       - Masuk Modul Apps, dan klik Update Apps List
       - Maka Addons Baru anda sudah masuk ke list apps, dan siap di Activate
