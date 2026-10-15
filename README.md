@@ -16,7 +16,7 @@
 <b>Installation:</b>
 
 1. Docker Installation
-   - Download Docker : https://www.docker.com/
+   - Download Docker: https://www.docker.com/
    - Install (Windows/Mac)
    - Run Docker
    
@@ -43,26 +43,26 @@
 
 
  3. Docker Terminal:
-   - Masuk ke docker : 
-      - docker exec -u root -it erp18 /bin/bash
+   - Masuk ke Docker : 
+      - docker exec -u root -it erp19 /bin/bash
    - Copy new module:
       - Download Free Addons ke folder kerja anda, di :
         - https://apps.odoo.com/apps
         - https://odoo-community.org/shop/
-      - Extract Zip File Addons yang baru di download, dan copykan masing-masing folder ke docker.
+      - Extract Zip file add-ons yang baru di-download, dan copykan masing-masing folder ke Docker.
       - docker cp <nama_module> erp18:/mnt/extra-addons
-      - docker stop erp18
-      - docker start erp18
+      - docker stop erp19
+      - docker start erp19
       - Masuk ke Odoo dan pastikan sudah mengaktifkan Developer Mode (Menu Setting --> Scroll page paling bawah --> Activate Developer Mode) 
       - Masuk Modul Apps, dan klik Update Apps List
-      - Maka Addons Baru anda sudah masuk ke list apps, dan siap di Activate
-   - Perintah operasi pada docker:
-      - Menampilkan list container pada docker dari terminal:
+      - Maka Addons Baru Anda sudah masuk ke list apps, dan siap di Activate
+   - Perintah operasi pada Docker:
+      - Menampilkan list container pada Docker dari terminal:
          -  docker container l --all 
-      - Menghapus container exsisting:
+      - Menghapus container existing:
          - docker rm <nama_container>
         
- 4. Setting pdf report agar tampil sempurna & ada logo:
+ 4. Setting PDF report agar tampil sempurna & ada logo:
       - System Configuration -> System Parameter
       - web.base.url = http://127.0.0.1:8069 
 <br>
@@ -70,7 +70,7 @@
    
 1. https://apps.odoo.com/apps/modules/19.0/om_account_accountant/
    
-2. https://odoo-community.org/shop/account-reconciliation-widget-8893#attr=14598 --> pilih versi 17
+2. https://odoo-community.org/shop/account-reconciliation-widget-8893#attr=14598 --> pilih versi 19
    
 3. https://apps.odoo.com/apps/modules/19.0/stock_no_negative/
     
