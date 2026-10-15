@@ -2,6 +2,7 @@
 ## History : 
 ## 1. 3 Feb 2025 @Univ Ciputra Surabaya
 ## 2. 11 JAn 2026 @STMIK Jayanusa Padang
+## 3. 15 Oct 2026 @STMIK Jayanusa Padang
 
 <b>Day 1:</b><br>
 <b>Comparasion:</b>
@@ -19,14 +20,14 @@
    - Install (Windows/Mac)
    - Run Docker
    
- 2. Install Odoo 18:
+ 2. Install Odoo 19:
    - Install Database:
-      - docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name=dberp18 postgres:16 
+      - docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name=dberp19 postgres:16 
    - Install Odoo:
-      - docker run -p 8069:8069 --name erp18 --link dberp18:db -t odoo:18 
+      - docker run -p 8069:8069 --name erp18 --link dberp19:db -t odoo:19 
    - Running Odoo:
-      - docker start dberp18 
-      - docker start erp18
+      - docker start dberp19 
+      - docker start erp19
       - http://localhost:8069
    - Install PgAdmin:
       - docker run -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=bootcamp” -e "PGADMIN_DEFAULT_PASSWORD=odoo" -d dpage/pgadmin4
@@ -67,9 +68,9 @@
 <br>
 <b>Download:<b>
    
-1. https://apps.odoo.com/apps/modules/17.0/om_account_accountant/
+1. https://apps.odoo.com/apps/modules/19.0/om_account_accountant/
    
 2. https://odoo-community.org/shop/account-reconciliation-widget-8893#attr=14598 --> pilih versi 17
    
-3. https://apps.odoo.com/apps/modules/17.0/stock_no_negative/
+3. https://apps.odoo.com/apps/modules/19.0/stock_no_negative/
     
