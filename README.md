@@ -24,7 +24,7 @@
    - Install Database:
       - docker run -d -e POSTGRES_USER=odoo -e POSTGRES_PASSWORD=odoo -e POSTGRES_DB=postgres --name=dberp19 postgres:16 
    - Install Odoo:
-      - docker run -p 8069:8069 --name erp18 --link dberp19:db -t odoo:19 
+      - docker run -p 8069:8069 --name erp19 --link dberp19:db -t odoo:19 
    - Running Odoo:
       - docker start dberp19 
       - docker start erp19
