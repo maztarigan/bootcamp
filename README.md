@@ -50,7 +50,7 @@
         - https://apps.odoo.com/apps
         - https://odoo-community.org/shop/
       - Extract Zip file add-ons yang baru di-download, dan copykan masing-masing folder ke Docker.
-      - docker cp <nama_module> erp18:/mnt/extra-addons
+      - docker cp <nama_module> erp19:/mnt/extra-addons
       - docker stop erp19
       - docker start erp19
       - Masuk ke Odoo dan pastikan sudah mengaktifkan Developer Mode (Menu Setting --> Scroll page paling bawah --> Activate Developer Mode) 
